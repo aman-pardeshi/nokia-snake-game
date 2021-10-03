@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(circle at center center, #ffffff, #e5e5f7),
+    repeating-radial-gradient(
+      circle at center center,
+      #ffffff,
+      #ffffff,
+      10px,
+      transparent 20px,
+      transparent 10px
+    );
+  background-blend-mode: multiply;
+}
+
+h1 {
+  margin-top: 20px;
+  font: 600 3.5em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+  color: transparent;
+  text-shadow: 0 0 0 #000000;
+}
+h1:focus {
+  outline: none;
+}
+
+.snake-grid {
+  width: 445px;
+  height: 455px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  margin: 0 auto 0 auto;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.col {
+  margin: auto;
+}
+
+.snake-grid div {
+  width: 10px;
+  height: 10px;
+
+  color: transparent;
+  text-shadow: 0 0 0 #2196f3;
+}
+.snake-grid div:focus {
+  outline: none;
+}
+
+.snake {
+  background-color: black;
+  border-radius: 10px;
+}
+
+.apple {
+  background-color: purple;
+}
+
+.result {
+  color: red;
+  font: 600 3.5em "Raleway", sans-serif;
+}
